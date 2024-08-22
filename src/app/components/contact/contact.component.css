@@ -1,0 +1,84 @@
+.contact-section {
+    background-color: #1A3636;
+    padding: 24px 0;
+    color: white;
+    margin-top: 70px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .section-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #dddddd;
+  }
+  
+  .social-links {
+    display: flex;
+    margin-bottom: 40px;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-link {
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-link.instagram:hover {
+    background-color: #C13584;
+  }
+  
+  .social-link.linkedin:hover {
+    background-color: #0077B5;
+  }
+  
+  .social-link.github:hover {
+    background-color: #333;
+  }
+  .social-link.x:hover {
+    background-color: #4058ae;
+  }
+
+  
+  .instagram-grid {
+    margin-bottom: 40px;
+  }
+  
+  .instagram-grid img {
+    height: 70%;
+    gap: 1px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .instagram-grid img:hover {
+    transform: scale(1.1);
+  }
+  
+  .contact-phone {
+    font-size: 1.3rem;
+  }
+  
+  .contact-phone a {
+    color: #00ADEF;
+    text-decoration: none;
+  }
+  
+  .contact-phone a:hover {
+    text-decoration: underline;
+  }
+  

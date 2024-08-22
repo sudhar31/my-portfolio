@@ -1,0 +1,77 @@
+/* Common styles for both terms and privacy pages */
+
+.terms-container {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff; /* Light background to contrast with the dark navbar */
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #495057;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+ul {
+    margin-left: 20px;
+    color: #555;
+}
+
+.checkbox-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.checkbox-container label {
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.btn-know-more {
+    background-color: #1E2A5E;
+    color: #f8f9fa;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.btn-know-more:hover {
+    background-color: #7C93C3;
+    color: #000407;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .terms-container, .privacy-container {
+        padding: 15px;
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
